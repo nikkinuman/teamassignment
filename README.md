@@ -1,61 +1,6 @@
 <!DOCTYPE html>
 
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OUD & NIEUW QUIZ</title>
-    <style>
-        body {
-            margin: 0;
-            overflow: hidden;
-            background: #000;
-            animation: glitter 5s infinite linear;
-            font-family: 'Times New Roman', sans-serif;
-            color: gold;
-        }
-
-        h1, h2, label, button, p {
-            text-shadow: 1px 1px 5px rgba(255, 255, 255, 0.8);
-        }
-
-        @keyframes glitter {
-            0%, 100% {
-                background-position: 0 0;
-            }
-            25% {
-                background-position: 50px 50px;
-            }
-            50% {
-                background-position: 0 0;
-            }
-            75% {
-                background-position: -50px -50px;
-            }
-        }
-
-        .content {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            text-align: center;
-        }
-
-        button {
-            padding: 10px;
-            background-color: #f39c12;
-            color: white;
-            border: none;
-            cursor: pointer;
-        }
-
-        button:hover {
-            background-color: #e67e22;
-        }
-    </style>
-    <script src="https://cdn.rawgit.com/davidshimjs/qrcodejs/gh-pages/qrcode.min.js"></script>
 </head>
 <body>
     <div class="content">
