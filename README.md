@@ -5,7 +5,7 @@
 <body>
     <div class="content">
         <h1>OUD & NIEUW QUIZ</h1>
-        <h2>Malle boys + aanhang + jelice</h2>
+        <h2> Happy new year</h2>
         <label for="name">Vul hier je naam in:</label>
         <input type="text" id="name" required>
         <button onclick="assignRandomTeam()">Assign Team</button>
